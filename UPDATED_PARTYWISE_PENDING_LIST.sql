@@ -1,4 +1,3 @@
-  /* Formatted on 6/21/2023 5:00:32 PM (QP5 v5.365) */
   SELECT HOU.NAME
              OPERATING_UNIT,
          AC.CUSTOMER_NUMBER,
