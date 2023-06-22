@@ -6,7 +6,7 @@
          OOH.ORDER_NUMBER,
          TRUNC (OOH.ORDERED_DATE)
              ORDER_DATE,
-         OOL.ORDERED_ITEM,
+         OOL.ORDERED_ITEM, 
          MSIB.DESCRIPTION,
          OOL.ORDER_QUANTITY_UOM
              UOM,
@@ -40,4 +40,4 @@ GROUP BY HOU.NAME,
          OOL.ORDERED_ITEM,
          MSIB.DESCRIPTION,
          OOL.ORDER_QUANTITY_UOM,
-         OOL.UNIT_SELLING_PRICE
+         OOL.UNIT_SELLING_PRICE;
