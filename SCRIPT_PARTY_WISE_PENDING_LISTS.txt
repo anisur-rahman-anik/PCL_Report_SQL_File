@@ -1,0 +1,40 @@
+
+######### Executable #########
+Navigation         == Application Developer >> Concurrent >> Executable
+Executable         == PSG_PARTY_WISE_PENDING_LISTS
+Short Name         == PSG_PARTY_WISE_PENDING_LISTS
+Application        == XXERP Custom Application
+Execution Method   == Oracle Reports
+Execution File Name== PSG_PARTY_WISE_PENDING_LISTS
+
+######### Concurrent Program #########
+Navigation    == Application Developer >> Concurrent >> Program
+Program      == PCL Party Wise Pending Lists
+Short Name    == PSG_PARTY_WISE_PENDING_LISTS
+Application   == XXERP Custom Application
+Execution Name== PSG_PARTY_WISE_PENDING_LISTS
+
+########## Parameter ###########
+1. Parameter Name == From Date ; Value Set == FND_DATE_STANDARD ; Token == P_FROM_DATE
+2. Parameter Name == To Date ; Value Set == FND_DATE_STANDARD ; Token == P_TO_DATE
+3. Parameter Name == Organization ; Value Set == 10 Characters ; Token == P_ORG_ID
+4. Parameter Name == Customer ID ; Value Set == 10 Characters ; Token == P_CUSTOMER_ID
+
+######### Data Defination: ########
+Name       == PSG_PARTY_WISE_PENDING_LISTS
+Code       == PSG_PARTY_WISE_PENDING_LISTS
+Application== XXERP Custom Application
+
+
+######### Data Templete: ########
+Name            == PCL Party Wise Pending Lists
+Application     == XXERP Custom Application
+Code            == PSG_PARTY_WISE_PENDING_LISTS
+Data Defination == PSG_PARTY_WISE_PENDING_LISTS
+
+
+######### Request Group ##########
+Navigation     == System Administrator>>Security >> Responsibility >> Request
+Request Group  == OM Concurrent Programs
+Application    == Order Management
+Program       == PCL Party Wise Pending Lists
